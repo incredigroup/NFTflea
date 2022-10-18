@@ -1,0 +1,48 @@
+.text-ul li {
+    position: relative;
+    list-style: none;
+    opacity: 1;
+    font-weight: bold;
+}
+.text-ul li:before {
+    content: "";
+    position: absolute;
+    left: -17px;
+    top: 12px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #F75757;
+}
+ 
+.absolute{
+    position: absolute;
+}
+.dots1{
+    z-index: -1;
+    top: 50%;
+    left: -1%;
+    transform: translateY(-50%);
+    width: 300px;
+}
+.dots2{
+    top: -1%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+}
+.dots3{
+    top: 50%;
+    right: -1%;
+    transform: translateY(-22%);
+    width: 100px;
+}
+.swiper{
+    padding:30px 0;
+}
+.nft-card {
+    transition: all 0.5s
+}
+.nft-card:hover {
+    transform: scale(1.02);
+}
